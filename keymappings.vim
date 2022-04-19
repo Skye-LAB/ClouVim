@@ -27,5 +27,10 @@ vnoremap <silent> <S-j> :m+1<CR>
 vnoremap <silent> <S-k> :m-2<CR>
 vnoremap <silent> p "_dP
 
+" lsp
+nnoremap <silent> gd :LspDefinition<CR>
+nnoremap <silent> gp :LspPeekDefinition<CR>
 nnoremap <silent> <S-k> :LspHover<CR>
+
+" which key
 nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>

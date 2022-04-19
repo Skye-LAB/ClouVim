@@ -8,6 +8,10 @@ Plug 'liuchengxu/vim-which-key'
 " colorscheme
 Plug 'flazz/vim-colorschemes'
 
+" airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 " fzf
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'

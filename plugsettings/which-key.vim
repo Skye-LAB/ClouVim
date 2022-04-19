@@ -9,4 +9,13 @@ let g:which_key_map = {
       \  'w': ['w', 'Save'],
       \ }
 
+let g:which_key_map['l'] = {
+      \ 'name': '+lsp',
+      \ 'a': ['LspCodeAction', 'Code Action'],
+      \ 'd': ['LspDocumentDiagnostics', 'Diagnostics'],
+      \ 'f': ['LspDocumentFormat', 'Format'],
+      \ 'l': ['LspCodeLens', 'Code Lens'],
+      \ 'r': ['LspRename', 'Rename Symbol']
+      \ }
+
 call which_key#register('<Space>', "g:which_key_map")

@@ -5,6 +5,5 @@ endif
 
 source ~/.config/vim/settings.vim
 source ~/.config/vim/keymappings.vim
-source ~/.config/vim/plugsettings/which-key.vim
-source ~/.config/vim/plugsettings/lsp.vim
-source ~/.config/vim/themes/airline.vim
+source ~/.config/vim/plugsettings/init.vim
+source ~/.config/vim/themes/init.vim

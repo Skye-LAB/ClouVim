@@ -6,7 +6,7 @@ Plug 'voldikss/vim-floaterm'
 Plug 'liuchengxu/vim-which-key'
 
 " colorscheme
-Plug 'flazz/vim-colorschemes'
+Plug 'joshdick/onedark.vim'
 
 " airline
 Plug 'vim-airline/vim-airline'
@@ -22,5 +22,9 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
+Plug 'Yggdroot/indentLine'
+Plug 'manasthakur/vim-commentor'
 
 cal plug#end()

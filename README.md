@@ -11,7 +11,7 @@ my personal vim config
 
 ### Vim Plug
 
-You can install vim-plug with this command or visit [here](https://github.com/junegunn/vim-plu){:target="_blank"}
+You can install vim-plug with this command or visit [here](https://github.com/junegunn/vim-plug?target=_blank)
 
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

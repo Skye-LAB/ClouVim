@@ -8,7 +8,7 @@ inoremap <expr> <cr>    pumvisible() ? asyncomplete#close_popup() : "\<cr>"
 imap <c-space> <Plug>(asyncomplete_force_refresh)
 
 " use tab instead
-let g:asyncomplete_auto_popup = 0
+let g:asyncomplete_auto_popup = 1
 
 function! s:check_back_space() abort
     let col = col('.') - 1

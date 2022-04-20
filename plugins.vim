@@ -8,6 +8,9 @@ Plug 'liuchengxu/vim-which-key'
 " colorscheme
 Plug 'joshdick/onedark.vim'
 
+" git
+Plug 'airblade/vim-gitgutter'
+
 " airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -26,5 +29,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
 Plug 'manasthakur/vim-commentor'
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 
 cal plug#end()

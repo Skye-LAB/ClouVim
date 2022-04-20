@@ -18,4 +18,10 @@ let g:which_key_map['l'] = {
       \ 'r': ['LspRename', 'Rename Symbol']
       \ }
 
+let g:which_key_map['g'] = {
+      \ 'name': '+git',
+      \ 'j': ['GitGutterPrevHunk', 'Pevious Hunk'],
+      \ 'k': ['GitGutterNextHunk', 'Next Hunk'],
+      \ }
+
 call which_key#register('<Space>', "g:which_key_map")
